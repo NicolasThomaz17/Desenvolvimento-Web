@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login Senac</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Seja bem-vindo a tela Senac</h2>
+        <form>
+            <label for="txtUsuario">Usuário</label>
+            <input type="text" id="txtUsuario" placeholder="Digite seu usuário..." required>
+           
+            <label for="txtSenha">Senha</label>
+            <input type="password" id="txtSenha" placeholder="Digite sua senha..." required>  
+            <button type="button" onclick="loginSenac()" id="btmEntrar">Entrar</button>
+        </form>
+ 
+        <p id="mensagem"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
