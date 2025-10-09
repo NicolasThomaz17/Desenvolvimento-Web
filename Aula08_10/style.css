@@ -1,0 +1,71 @@
+/* Estilo geral do corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Uma fonte mais amigável */
+    background-color: #f0f2f5; /* Um cinza bem clarinho pro fundo */
+    display: flex;
+    justify-content: center; /* Centraliza na horizontal */
+    align-items: center;     /* Centraliza na vertical */
+    height: 100vh;           /* Altura total da tela */
+    margin: 0;
+}
+
+/* O container do nosso formulário */
+.login-container {
+    background-color: #fff; /* Fundo branco */
+    padding: 30px;
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra pra dar um relevo */
+    width: 300px;
+    text-align: center; /* Alinha o texto no centro */
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Grupo de cada input (label + campo) */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left; /* Alinha o texto dos inputs à esquerda */
+}
+
+.input-group label {
+    display: block; /* Faz o label ocupar uma linha inteira */
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Estilo dos campos de texto (email e senha) */
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Garante que o padding não aumente a largura total */
+}
+
+/* Estilo do botão */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Um azul padrão bacana */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; /* Muda o cursor pra mãozinha ao passar em cima */
+    font-size: 16px;
+}
+
+/* Efeito simples quando passa o mouse sobre o botão */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para a mensagem de erro que vai aparecer com o JS */
+.mensagem-erro {
+    color: #dc3545; /* Um vermelho pra indicar erro */
+    margin-top: 10px;
+    font-size: 14px;
+    height: 20px; /* Deixa um espacinho reservado pra ela */
+}
